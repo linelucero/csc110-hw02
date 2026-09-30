@@ -1,10 +1,22 @@
+# ------------------------------------------------------
+#        Name: Aline Valenzuela-Lucero
+#       Peers: N/A
+#  References: N/A
+# ------------------------------------------------------
+
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
     # ADD a Docstring for this function
+    """Here we want to input from user, values for x and y and print them"""
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
-    return 1, 2
+    x = int(input("give me x: "))
+    
+    y = int(input("give me y: "))
+    
+    return x,y
+
 
 # Task 2.1:
 #  Complete the function "compute_multadd" below:
