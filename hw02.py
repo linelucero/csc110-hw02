@@ -24,7 +24,14 @@ def compute_multadd(a, b):
     # ADD a Docstring for this function
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
-    pass
+    c = ( a*b )
+    print("mult result:" ,c)
+    
+    d = ( a+b )
+    print("add result:" ,d)
+    
+    quotient = c/d
+    return quotient
 
 # Task 3.1:
 #  Complete the function "print_fancy" below:
